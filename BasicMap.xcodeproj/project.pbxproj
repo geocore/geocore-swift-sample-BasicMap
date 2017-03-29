@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7311D10B9D49D7A5B0C2D863 /* Pods_BasicMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FFE5AF7123B5543DE5B5F /* Pods_BasicMap.framework */; };
+		A95F6CE91E8B4557007013CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6CE81E8B4557007013CE /* AppDelegate.swift */; };
+		A95F6CEE1E8B4557007013CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95F6CEC1E8B4557007013CE /* Main.storyboard */; };
+		A95F6CF01E8B4557007013CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95F6CEF1E8B4557007013CE /* Assets.xcassets */; };
+		A95F6CF31E8B4557007013CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95F6CF11E8B4557007013CE /* LaunchScreen.storyboard */; };
+		A95F6D051E8B45EC007013CE /* Geocore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6CFB1E8B45EC007013CE /* Geocore.swift */; };
+		A95F6D061E8B45EC007013CE /* GeocoreEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6CFC1E8B45EC007013CE /* GeocoreEvent.swift */; };
+		A95F6D071E8B45EC007013CE /* GeocoreFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6CFD1E8B45EC007013CE /* GeocoreFeed.swift */; };
+		A95F6D081E8B45EC007013CE /* GeocoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6CFE1E8B45EC007013CE /* GeocoreItem.swift */; };
+		A95F6D091E8B45EC007013CE /* GeocoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6D001E8B45EC007013CE /* GeocoreObject.swift */; };
+		A95F6D0A1E8B45EC007013CE /* GeocorePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6D011E8B45EC007013CE /* GeocorePlace.swift */; };
+		A95F6D0B1E8B45EC007013CE /* GeocoreTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6D021E8B45EC007013CE /* GeocoreTag.swift */; };
+		A95F6D0C1E8B45EC007013CE /* GeocoreUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6D031E8B45EC007013CE /* GeocoreUser.swift */; };
+		A95F6D0D1E8B45EC007013CE /* GeocoreUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6D041E8B45EC007013CE /* GeocoreUtil.swift */; };
+		A95F6D0F1E8B4834007013CE /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6D0E1E8B4834007013CE /* SplashViewController.swift */; };
+		A95F6D111E8B484F007013CE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6D101E8B484F007013CE /* MapViewController.swift */; };
+		A95F6D141E8B48D4007013CE /* ReplaceRootSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F6D131E8B48D4007013CE /* ReplaceRootSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98B81B4BF8DDDFD7BF2D3365 /* Pods-BasicMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicMap/Pods-BasicMap.debug.xcconfig"; sourceTree = "<group>"; };
+		A95F6CE51E8B4557007013CE /* BasicMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95F6CE81E8B4557007013CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A95F6CED1E8B4557007013CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A95F6CEF1E8B4557007013CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A95F6CF21E8B4557007013CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A95F6CF41E8B4557007013CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95F6CFB1E8B45EC007013CE /* Geocore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geocore.swift; sourceTree = "<group>"; };
+		A95F6CFC1E8B45EC007013CE /* GeocoreEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoreEvent.swift; sourceTree = "<group>"; };
+		A95F6CFD1E8B45EC007013CE /* GeocoreFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoreFeed.swift; sourceTree = "<group>"; };
+		A95F6CFE1E8B45EC007013CE /* GeocoreItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoreItem.swift; sourceTree = "<group>"; };
+		A95F6CFF1E8B45EC007013CE /* GeocoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocoreKit.h; sourceTree = "<group>"; };
+		A95F6D001E8B45EC007013CE /* GeocoreObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoreObject.swift; sourceTree = "<group>"; };
+		A95F6D011E8B45EC007013CE /* GeocorePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocorePlace.swift; sourceTree = "<group>"; };
+		A95F6D021E8B45EC007013CE /* GeocoreTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoreTag.swift; sourceTree = "<group>"; };
+		A95F6D031E8B45EC007013CE /* GeocoreUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoreUser.swift; sourceTree = "<group>"; };
+		A95F6D041E8B45EC007013CE /* GeocoreUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoreUtil.swift; sourceTree = "<group>"; };
+		A95F6D0E1E8B4834007013CE /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		A95F6D101E8B484F007013CE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A95F6D131E8B48D4007013CE /* ReplaceRootSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceRootSegue.swift; sourceTree = "<group>"; };
+		A9DCC20C9DEF2B80AF155F07 /* Pods-BasicMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicMap/Pods-BasicMap.release.xcconfig"; sourceTree = "<group>"; };
+		C88FFE5AF7123B5543DE5B5F /* Pods_BasicMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95F6CE21E8B4557007013CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7311D10B9D49D7A5B0C2D863 /* Pods_BasicMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261DB1FD05AC791B386454D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98B81B4BF8DDDFD7BF2D3365 /* Pods-BasicMap.debug.xcconfig */,
+				A9DCC20C9DEF2B80AF155F07 /* Pods-BasicMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A95F6CDC1E8B4557007013CE = {
+			isa = PBXGroup;
+			children = (
+				A95F6CE71E8B4557007013CE /* BasicMap */,
+				A95F6CE61E8B4557007013CE /* Products */,
+				261DB1FD05AC791B386454D6 /* Pods */,
+				D4945875BD19BABCF65F6331 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A95F6CE61E8B4557007013CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95F6CE51E8B4557007013CE /* BasicMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95F6CE71E8B4557007013CE /* BasicMap */ = {
+			isa = PBXGroup;
+			children = (
+				A95F6CFA1E8B45EC007013CE /* GeocoreKit */,
+				A95F6D121E8B48A3007013CE /* Utilities */,
+				A95F6CE81E8B4557007013CE /* AppDelegate.swift */,
+				A95F6D0E1E8B4834007013CE /* SplashViewController.swift */,
+				A95F6D101E8B484F007013CE /* MapViewController.swift */,
+				A95F6CEC1E8B4557007013CE /* Main.storyboard */,
+				A95F6CEF1E8B4557007013CE /* Assets.xcassets */,
+				A95F6CF11E8B4557007013CE /* LaunchScreen.storyboard */,
+				A95F6CF41E8B4557007013CE /* Info.plist */,
+			);
+			path = BasicMap;
+			sourceTree = "<group>";
+		};
+		A95F6CFA1E8B45EC007013CE /* GeocoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				A95F6CFB1E8B45EC007013CE /* Geocore.swift */,
+				A95F6CFC1E8B45EC007013CE /* GeocoreEvent.swift */,
+				A95F6CFD1E8B45EC007013CE /* GeocoreFeed.swift */,
+				A95F6CFE1E8B45EC007013CE /* GeocoreItem.swift */,
+				A95F6CFF1E8B45EC007013CE /* GeocoreKit.h */,
+				A95F6D001E8B45EC007013CE /* GeocoreObject.swift */,
+				A95F6D011E8B45EC007013CE /* GeocorePlace.swift */,
+				A95F6D021E8B45EC007013CE /* GeocoreTag.swift */,
+				A95F6D031E8B45EC007013CE /* GeocoreUser.swift */,
+				A95F6D041E8B45EC007013CE /* GeocoreUtil.swift */,
+			);
+			path = GeocoreKit;
+			sourceTree = "<group>";
+		};
+		A95F6D121E8B48A3007013CE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A95F6D131E8B48D4007013CE /* ReplaceRootSegue.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D4945875BD19BABCF65F6331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88FFE5AF7123B5543DE5B5F /* Pods_BasicMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95F6CE41E8B4557007013CE /* BasicMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95F6CF71E8B4557007013CE /* Build configuration list for PBXNativeTarget "BasicMap" */;
+			buildPhases = (
+				03D1CB81913EB9F9BABF566F /* [CP] Check Pods Manifest.lock */,
+				A95F6CE11E8B4557007013CE /* Sources */,
+				A95F6CE21E8B4557007013CE /* Frameworks */,
+				A95F6CE31E8B4557007013CE /* Resources */,
+				5EB1DBCA1A824B4CF61E2710 /* [CP] Embed Pods Frameworks */,
+				4AEB46A64E16B6FB3D0C082E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicMap;
+			productName = BasicMap;
+			productReference = A95F6CE51E8B4557007013CE /* BasicMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A95F6CDD1E8B4557007013CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Geocore;
+				TargetAttributes = {
+					A95F6CE41E8B4557007013CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6KAYK47HTV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A95F6CE01E8B4557007013CE /* Build configuration list for PBXProject "BasicMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A95F6CDC1E8B4557007013CE;
+			productRefGroup = A95F6CE61E8B4557007013CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95F6CE41E8B4557007013CE /* BasicMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A95F6CE31E8B4557007013CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95F6CF31E8B4557007013CE /* LaunchScreen.storyboard in Resources */,
+				A95F6CF01E8B4557007013CE /* Assets.xcassets in Resources */,
+				A95F6CEE1E8B4557007013CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D1CB81913EB9F9BABF566F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AEB46A64E16B6FB3D0C082E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicMap/Pods-BasicMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB1DBCA1A824B4CF61E2710 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicMap/Pods-BasicMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95F6CE11E8B4557007013CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95F6D0D1E8B45EC007013CE /* GeocoreUtil.swift in Sources */,
+				A95F6D071E8B45EC007013CE /* GeocoreFeed.swift in Sources */,
+				A95F6D0F1E8B4834007013CE /* SplashViewController.swift in Sources */,
+				A95F6CE91E8B4557007013CE /* AppDelegate.swift in Sources */,
+				A95F6D051E8B45EC007013CE /* Geocore.swift in Sources */,
+				A95F6D111E8B484F007013CE /* MapViewController.swift in Sources */,
+				A95F6D0B1E8B45EC007013CE /* GeocoreTag.swift in Sources */,
+				A95F6D061E8B45EC007013CE /* GeocoreEvent.swift in Sources */,
+				A95F6D141E8B48D4007013CE /* ReplaceRootSegue.swift in Sources */,
+				A95F6D081E8B45EC007013CE /* GeocoreItem.swift in Sources */,
+				A95F6D0C1E8B45EC007013CE /* GeocoreUser.swift in Sources */,
+				A95F6D0A1E8B45EC007013CE /* GeocorePlace.swift in Sources */,
+				A95F6D091E8B45EC007013CE /* GeocoreObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A95F6CEC1E8B4557007013CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95F6CED1E8B4557007013CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A95F6CF11E8B4557007013CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95F6CF21E8B4557007013CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A95F6CF51E8B4557007013CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A95F6CF61E8B4557007013CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95F6CF81E8B4557007013CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B81B4BF8DDDFD7BF2D3365 /* Pods-BasicMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KAYK47HTV;
+				INFOPLIST_FILE = BasicMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.geocore.BasicMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A95F6CF91E8B4557007013CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DCC20C9DEF2B80AF155F07 /* Pods-BasicMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KAYK47HTV;
+				INFOPLIST_FILE = BasicMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.geocore.BasicMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95F6CE01E8B4557007013CE /* Build configuration list for PBXProject "BasicMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95F6CF51E8B4557007013CE /* Debug */,
+				A95F6CF61E8B4557007013CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95F6CF71E8B4557007013CE /* Build configuration list for PBXNativeTarget "BasicMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95F6CF81E8B4557007013CE /* Debug */,
+				A95F6CF91E8B4557007013CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A95F6CDD1E8B4557007013CE /* Project object */;
+}
