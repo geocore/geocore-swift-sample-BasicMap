@@ -34,5 +34,27 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>GeocoreBaseURL</key>
+	<string>http://dev1.geocore.jp/api</string>
+	<key>GeocoreProjectId</key>
+	<string>PRO-TEST-1</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>dev1.geocore.jp</key>
+            <dict>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+            <key>geocore.dev.s3.amazonaws.com</key>
+            <dict>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app uses Location Service for displaying user's 'location on the map.</string>
 </dict>
 </plist>

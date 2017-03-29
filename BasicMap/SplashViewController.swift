@@ -7,13 +7,28 @@
 //
 
 import UIKit
+import PromiseKit
 
 class SplashViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Login to Geocore
+        Geocore.sharedInstance.loginWithDefaultUser()
+            .then { accessToken -> Void in
+                debugPrint("[INFO] Logged in to Geocore successfully, with access token = \(accessToken), userId = \(Geocore.sharedInstance.userId)")
+                // wait for 1 seconds and move to the next screen (for now)
+                Timer.scheduledTimer(
+                    timeInterval: 1.0,
+                    target: self,
+                    selector: #selector(SplashViewController.toTopScreen),
+                    userInfo: nil,
+                    repeats: false)
+            }
+            .catch { error in
+                print("[ERROR] Error connecting/logging in -> \(error)")
+            }
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +36,9 @@ class SplashViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func toTopScreen() {
+        self.performSegue(withIdentifier: "splashToTop", sender: self)
+    }
 
     /*
     // MARK: - Navigation
