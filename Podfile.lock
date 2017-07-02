@@ -1,32 +1,35 @@
 PODS:
-  - Alamofire (4.3.0)
+  - Alamofire (4.5.0)
   - AlamofireImage (3.2.0):
     - Alamofire (~> 4.1)
-  - PromiseKit (4.1.7):
-    - PromiseKit/Foundation (= 4.1.7)
-    - PromiseKit/QuartzCore (= 4.1.7)
-    - PromiseKit/UIKit (= 4.1.7)
-  - PromiseKit/CorePromise (4.1.7)
-  - PromiseKit/Foundation (4.1.7):
+  - GeocoreKit (0.4.0):
+    - Alamofire (~> 4.3)
+    - AlamofireImage (~> 3.1)
+    - PromiseKit (~> 4.0)
+    - SwiftyJSON
+  - PromiseKit (4.2.2):
+    - PromiseKit/Foundation (= 4.2.2)
+    - PromiseKit/QuartzCore (= 4.2.2)
+    - PromiseKit/UIKit (= 4.2.2)
+  - PromiseKit/CorePromise (4.2.2)
+  - PromiseKit/Foundation (4.2.2):
     - PromiseKit/CorePromise
-  - PromiseKit/QuartzCore (4.1.7):
+  - PromiseKit/QuartzCore (4.2.2):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (4.1.7):
+  - PromiseKit/UIKit (4.2.2):
     - PromiseKit/CorePromise
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.3)
-  - AlamofireImage (~> 3.1)
-  - PromiseKit (~> 4.0)
-  - SwiftyJSON
+  - GeocoreKit (~> 0.4)
 
 SPEC CHECKSUMS:
-  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
-  PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
+  GeocoreKit: f044ae6281e7e2b877c225413d03f49dc2343b09
+  PromiseKit: 00e8886881f151c7e573d06b437915b0bb2970ec
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 2082fe400870314a4911e27417c1f880dceb174d
+PODFILE CHECKSUM: 13a8462073c99195fb2802716a409bcca5be0b5a
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1

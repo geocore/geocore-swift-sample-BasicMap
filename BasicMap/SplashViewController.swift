@@ -8,6 +8,7 @@
 
 import UIKit
 import PromiseKit
+import GeocoreKit
 
 class SplashViewController: UIViewController {
 

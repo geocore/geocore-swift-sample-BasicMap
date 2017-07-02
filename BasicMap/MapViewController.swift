@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import GeocoreKit
 
 class PlaceAnnotation: MKPointAnnotation {
     
